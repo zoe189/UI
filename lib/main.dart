@@ -61,6 +61,7 @@ class HomePage extends StatelessWidget {
                 ),
                 child: Padding(
                   padding: EdgeInsets.all(30),
+                  child:SingleChildScrollView(
                   child: Column(
                     children: <Widget>[
                       SizedBox(height: 60),
@@ -210,7 +211,7 @@ class HomePage extends StatelessWidget {
                         ],
                       ),
                     ],
-                  ),
+                  ),),
                 ),
               ),
             ),
